@@ -377,26 +377,8 @@ logs/
 
 If releasing trained weights, upload them to GitHub Releases, Google Drive, Hugging Face, or another external storage service, then link them here.
 
-## 12. Citation
 
-This codebase is based on CLIPCLAP-GZSL. Please cite the original paper if you use the base implementation:
-
-```bibtex
-@inproceedings{kurzendoerfer2024clipclap,
-  author    = {Kurzendoerfer, David and Mercea, Otniel-Bogdan and Koepke, A. Sophia and Akata, Zeynep},
-  title     = {Audio-Visual Generalized Zero-Shot Learning using Pre-Trained Large Multi-Modal Models},
-  booktitle = {Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)},
-  year      = {2024}
-}
-```
-
-If you use the hyperspherical semantic-preserving and AV-MoE routing extensions, please cite the corresponding paper once available.
-
-## 13. License
-
-This repository follows the license of the upstream CLIPCLAP-GZSL implementation unless otherwise specified.
-
-## 14. GitHub Release Notes
+## 12. GitHub Release Notes
 
 - Raw datasets and extracted CLIP/CLAP features are excluded from version control.
 - Generated checkpoints, tensorboard events, logs, and result pickles are excluded from version control.
