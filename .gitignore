@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Local environments
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# Editor / OS
+.vscode/
+.idea/
+.spyderproject
+.spyproject
+.ropeproject
+desktop.ini
+Thumbs.db
+.DS_Store
+.codex
+
+# Local datasets and extracted features
+data/**
+!data/
+!data/.gitkeep
+
+# Local checkpoints and pretrained weights
+models/**
+!models/
+!models/.gitkeep
+*.pt
+*.pth
+*.ckpt
+
+# Runtime logs and generated experiment artifacts
+logs/**
+!logs/
+!logs/.gitignore
+!logs/.gitkeep
+runs/
+wandb/
+*.log
+events.out.tfevents.*
+
+# Generated arrays / pickles / archives
+*.pkl
+*.pickle
+!splitting_scripts_cls/*.pickle
+*.npz
+*.npy
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+# Optional external WavCaps / CLAP code and pretrained resources
+WavCaps/
+
+# Misc local scratch
+dat/
+tmp/
+temp/
